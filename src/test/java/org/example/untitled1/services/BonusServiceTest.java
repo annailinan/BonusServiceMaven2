@@ -1,3 +1,6 @@
+//import org.example.untitled1.services.BonusService;
+
+package org.example.untitled1. services;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -64,4 +67,5 @@ public class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         Assertions.assertEquals(expected, actual);
     }
+
 }
